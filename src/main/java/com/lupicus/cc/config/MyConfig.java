@@ -63,7 +63,7 @@ public class MyConfig
 			mobDestroy = builder
 					.comment("Mob explosions can destroy blocks based on mob target")
 					.translation(section_trans + "mob_destroy")
-					.define("MobDestroy", true);
+					.define("MobDestroy", false);
 
 			chunksFromSpawn = builder
 					.comment("Chunks from world spawn")
